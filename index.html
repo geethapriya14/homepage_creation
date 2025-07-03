@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ParkQwik</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo-section">
+      <img src="Group 408.png" alt="Park Qwik Logo">
+    </div>
+  
+    <ul class="nav-links">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Parking</a></li>
+      <li><a href="#">Fastag</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  
+    <div class="contact-button">
+      <a href="tel:+918428428833">+91 842 842 88 33</a>
+    </div>
+  </nav>
+  
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Simplify Your Car Experience with ParkQwik</h1>
+      <p>The Complete Parking App and Car Services Solution</p>
+    </div>
+    <div class="hero-img">
+      <img src="1023a5c1ebb962f3a3fc00517edeb7787b386d55.jpg" alt="Car Parking Icon">
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <div class="products-section">
+    <h2>Our Products</h2>
+    
+    <div class="slider-wrapper">
+      <!-- Left scroll button -->
+      <img src="expand_circle_down.png" class="scroll-img left" onclick="scrollLeft()" alt="Scroll Left">
+      
+      <!-- Scrollable product cards -->
+      <div class="products-container" id="productScroll">
+        <div class="product-card">
+          <img src="Group 2.png" alt="Fastag Services">
+          <p>Fastag Services</p>
+        </div>
+        <div class="product-card">
+          <img src="location-pin-map_svgrepo.com.png" alt="Nearby Parking">
+          <p>Nearby Parking</p>
+        </div>
+        <div class="product-card">
+          <img src="electric-car-illustration-1_svgrepo.com.png" alt="EV Parking">
+          <p>EV Parking</p>
+        </div>
+        <div class="product-card">
+          <img src="Group 194.png" alt="Car Insurance">
+          <p>Car Insurance</p>
+        </div>
+        <div class="product-card">
+          <img src="Group 217.png" alt="Road Assistance">
+          <p>Road Assistance</p>
+        </div>
+        <div class="product-card">
+          <img src="Group 5.png" alt="Toll Estimator">
+          <p>Toll Estimator</p>
+        </div>
+      </div>
+  
+      <!-- Right scroll button -->
+      <img src="expand_circle_down.png" class="scroll-img right" onclick="scrollRight()" alt="Scroll Right">
+    </div>
+  </div>
+  <!-- Parking is easy section -->
+  <section class="easy-parking">
+    <div class="text-content">
+      <h2>Parking is easy with us</h2>
+      <p>
+        ParkQwik helps you to find, reserve, and pay for parking spaces in a few taps.
+        Say goodbye to endless searching and wasted time.
+      </p>
+    </div>
+    <div class="images">
+      <img src="e9dfd36ebdeba9ad27995c034fd23538874c8b6f.png" alt="Map App Screenshot" />
+      <img src="7f8010f663f3069b09317e10711bdf163a2eb36c.png" alt="Booking App Screenshot" />
+    </div>
+  </section>
+
+  <!-- How it works section -->
+  <section class="how-it-works">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="direction-globe-location_svgrepo.com.png" alt="Directions Icon" />
+        <p>You’ll receive directions to the space and information on how to access it.</p>
+      </div>
+      <div class="step">
+        <img src="Group 410.png" alt="Notification Icon" />
+        <p>The space owner/car park is notified of your booking.</p>
+      </div>
+      <div class="step">
+        <img src="parking-garage-transportation-car-parking_svgrepo.com.png" alt="Car Icon" />
+        <p>Just turn up, park your vehicle, and get on with your day!</p>
+      </div>
+    </div>
+  </section>
+  <!-- Find and Reserve Parking Section -->
+<section class="find-parking">
+  <div class="find-parking-container">
+    <div class="find-parking-text">
+      <h2>Find and Reserve<br><span>Parking Anywhere</span></h2>
+      <p>Easily find nearby parking spaces by entering your address or selecting your location</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter your location" />
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="find-parking-image">
+      <img src="6181705c1119a80e7972bc23f3f5d490a328f4b0.png" alt="Map" />
+    </div>
+  </div>
+</section>
+
+<!-- Happy Customers Section -->
+<section class="testimonials">
+  <h2>Our Happy Customers</h2>
+  <div class="carousel-wrapper">
+    <button class="carousel-btn left">&#8249;</button>
+    <div class="testimonial-carousel">
+      <div class="testimonial-card">
+        <img src="9f092581f0d339f820d1f16c29cdef8d3d48b275.jpg" alt="Charlie" />
+        <div class="testimonial-text">
+          <h4>My car looks absolutely shiny every morning.</h4>
+          <p>I tried ParkQwik car wash service on the recommendation of a friend, and there has been no looking back since then.</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <span class="name">Charlie</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <img src="15f0dd3c325e54eb1d87f5afb80405836fc71ed3.jpg" alt="Kumar" />
+        <div class="testimonial-text">
+          <h4>ParkQwik is the best parking app I’ve used so far.</h4>
+          <p>I can quickly check for open spots and secure one with ease. The convenience is unmatched.</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <span class="name">Kumar</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <img src="7039759f71176b4f92763d6fd79b3722933a1287.jpg" alt="Jessica" />
+        <div class="testimonial-text">
+          <h4>Had a great experience with ParkQwik.</h4>
+          <p>ParkQwik has been a lifesaver in urban areas with limited parking options. I no longer waste time driving around aimlessly.</p>
+          <div class="stars">⭐⭐⭐⭐</div>
+          <span class="name">Jessica</span>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn right">&#8250;</button>
+  </div>
+</section>
+<!-- Download ParkQwik Section -->
+<section class="download-section">
+  <div class="download-container">
+    <div class="download-text">
+      <h2>Download ParkQwik</h2>
+      <p>
+        By downloading ParkQwik, you gain access to a world of seamless parking
+        experiences and car services right at your fingertips.
+      </p>
+      <div class="download-buttons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+      </div>
+    </div>
+    <div class="download-image">
+      <img src="b2d088274bff804d4a4da531f8a0fd3b2c06ac41 (1).png" alt="App Mockup" />
+      <img src="123a86794fad4e0369ed68cedd522ec24ed5f762 (2).png" />
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <div class="faq-container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <p>Can I reserve a parking spot in advance?</p><span>›</span>
+    </div>
+    <div class="faq-item">
+      <p>What happens if I exceed my parking reservation time?</p><span>›</span>
+    </div>
+    <div class="faq-item">
+      <p>Can I cancel my parking reservation?</p><span>›</span>
+    </div>
+    <div class="faq-item">
+      <p>Does ParkQwik operate in multiple cities?</p><span>›</span>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Park Qwik</h3>
+      <p>The Complete Parking App and Car Services Solution</p>
+      <div class="social-icons">
+        <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook.png" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" /></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li>About Us</li>
+        <li>Blogs</li>
+        <li>Newsletters</li>
+        <li>Help & Support</li>
+        <li>Careers</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Cancellation & Refund Policy</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li>Fastag Services</li>
+        <li>Nearby Parking</li>
+        <li>EV Parking</li>
+        <li>Rentout Helmet</li>
+        <li>Doorstep Car Wash</li>
+        <li>Road Assistance</li>
+        <li>Car Insurance</li>
+        <li>Shop</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Reach Us</h4>
+      <p>info@parkqwik.com</p>
+      <p>+91 84374 88 333</p>
+      <p>Level 7, RM Towers, 143, MGR Main Road, Perungudi, Chennai - 96</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-tags">
+      <span>Chennai Office</span>
+      <span>Bangalore Office</span>
+      <span>Mumbai Office</span>
+      <span>Delhi Office</span>
+    </div>
+    <p>© 2024 ParkQwik Private Limited. All rights reserved.</p>
+  </div>
+</footer>
